@@ -20,3 +20,6 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
 ## 2. Partititon disks and Filesystem
 - First things you want to do is check your disk. Using command "lsblk"
 - Choose your disk. Command "cfdisk /dev/sda"
+<img width="856" height="241" alt="image" src="https://github.com/user-attachments/assets/e6f229c0-9b0c-4421-8777-9d208a605b21" />
+
+-   In this image, I divided this partition into 3 parts: first part is 1GB EFI System partition, second part is the Linux swap and last one is the Linux System operation
