@@ -12,3 +12,6 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
 
 - Find IPv4 and we switch to host machine to easy to copy, paste any command from LFS book
 <img width="1247" height="856" alt="image" src="https://github.com/user-attachments/assets/d62bc143-edb3-4c56-9640-6df0cfc8b355" />
+
+- I use Gentoo on VMware, for convenient I use SSH in PowerShell (Windows). Use command "ssh root@<IP address>"
+<img width="729" height="63" alt="image" src="https://github.com/user-attachments/assets/440cadd7-e529-40d7-9d6d-ec0ff106b74f" />
