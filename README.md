@@ -18,3 +18,5 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
 <img width="729" height="63" alt="image" src="https://github.com/user-attachments/assets/440cadd7-e529-40d7-9d6d-ec0ff106b74f" />
 
 ## 2. Partititon disks and Filesystem
+- First things you want to do is check your disk. Using command "lsblk"
+- Choose your disk. Command "cfdisk /dev/sda"
