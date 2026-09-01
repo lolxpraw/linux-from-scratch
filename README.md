@@ -4,6 +4,7 @@ An introduce to guide everyone want to use Linux from Sractch from zero to hero 
 - I recommend you should download LiveGUI USB Image for easy boot.
 After installation and booting, you can see the UI and Plasma KDE in Gentoo. What I want you to do is remove it, press Ctrl + ALT + F1 and type command "Clear". The result in the picture:
 <img width="1605" height="914" alt="image" src="https://github.com/user-attachments/assets/9d81dcda-b4dc-41cd-86d6-29ec9051f0b3" />
+
 - Next, you want to make a pesudo password for root with command "sudo passwd root". Type your password and we can go.
 - Turn on your SSHD, which is installed on the file .iso. All you want to do switch for user using commnand "su -" and turn on SSHD "rc-service"
 - Note: An SSH daemon (sshd) is a background program running on a server that continuously listens for incoming secure remote connections.
