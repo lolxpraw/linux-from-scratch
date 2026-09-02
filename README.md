@@ -2,6 +2,7 @@
 An introduce to guide everyone want to use Linux from Sractch from zero to hero lol
 ## 1. Load up ISO and SSH
 - Download link: https://www.gentoo.org/downloads/amd64/
+- Guide: https://www.linuxfromscratch.org/lfs/view/stable/
 - I recommend you should download LiveGUI USB Image for easy boot.
 After installation and booting, you can see the UI and Plasma KDE in Gentoo. What I want you to do is remove it, press Ctrl + ALT + F1 and type command "Clear". The result in the picture:
 <img width="1605" height="914" alt="image" src="https://github.com/user-attachments/assets/9d81dcda-b4dc-41cd-86d6-29ec9051f0b3" />
@@ -19,9 +20,17 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
 
 ## 2. Partititon disks and Filesystem
 - First things you want to do is check your disk. Using command "lsblk"
-- Choose your disk. Command "cfdisk /dev/sda"
+- Choose your disk. Command "cfdisk /dev/sda" (2.4 in guide book)
 - In this image, I divided this partition into 3 parts: first part is 1GB EFI System partition, second part is the Linux swap and last one is the Linux System operation
 <img width="856" height="241" alt="image" src="https://github.com/user-attachments/assets/e6f229c0-9b0c-4421-8777-9d208a605b21" />
 
-- Filesystem
+- Filesystem (2.5 in guide book)
 <img width="858" height="312" alt="image" src="https://github.com/user-attachments/assets/d8b3aacc-afd4-4a30-a993-b02e17a118af" />
+
+- Settings the $LFS Variable and the Umask: (2.6)
+  + The enviroment variable LFS will be used several time. You should ensure that this variable is always defined throughout the LFS build process. Command "export LFS=/mnt/lfs". Check that LFS is set by using "echo $LFS"
+   <img width="635" height="59" alt="image" src="https://github.com/user-attachments/assets/55991c36-27a7-4946-b26b-082a281dc791" />
+  + Set the file mode creation mask (umask) to 022 in case the host distro uses a different default:
+    <img width="623" height="55" alt="image" src="https://github.com/user-attachments/assets/9a91e031-4ecc-41f8-becb-91966bcba169" />
+  * Note: 
+
