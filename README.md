@@ -40,7 +40,8 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
   + Now the file systems is mounted at the directory specified by the LFS enviroment variable.
   + Create the mount point and mount the LFS file system with these command on this picture:
     <img width="707" height="92" alt="image" src="https://github.com/user-attachments/assets/d959691f-6173-42fc-b5b3-106d25b4668e" />
-    
+
+ 
 - Set the owner and permission mode of the $LFS directory:
   <img width="452" height="153" alt="image" src="https://github.com/user-attachments/assets/3a85f235-a752-48ff-8fe5-92deb471785a" />
 
