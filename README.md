@@ -29,7 +29,7 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
 
 - Settings the $LFS Variable and the Umask: (2.6)
   + The enviroment variable LFS will be used several time. You should ensure that this variable is always defined throughout the LFS build process. Command "export LFS=/mnt/lfs". Check that LFS is set by using "echo $LFS"
-   <img width="635" height="59" alt="image" src="https://github.com/user-attachments/assets/55991c36-27a7-4946-b26b-082a281dc791" />
+    <img width="635" height="59" alt="image" src="https://github.com/user-attachments/assets/55991c36-27a7-4946-b26b-082a281dc791" />
    
   + Set the file mode creation mask (umask) to 022 in case the host distro uses a different default:
     <img width="623" height="55" alt="image" src="https://github.com/user-attachments/assets/9a91e031-4ecc-41f8-becb-91966bcba169" />
@@ -40,10 +40,10 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
 - Mounting the new partition:
   + Now the file systems is mounted at the directory specified by the LFS enviroment variable.
   + Create the mount point and mount the LFS file system with these command on this picture:
-  <img width="707" height="92" alt="image" src="https://github.com/user-attachments/assets/d959691f-6173-42fc-b5b3-106d25b4668e" />
+    <img width="707" height="92" alt="image" src="https://github.com/user-attachments/assets/d959691f-6173-42fc-b5b3-106d25b4668e" />
 
  
 - Set the owner and permission mode of the $LFS directory:
 
-  <img width="452" height="153" alt="image" src="https://github.com/user-attachments/assets/3a85f235-a752-48ff-8fe5-92deb471785a" />
+    <img width="452" height="153" alt="image" src="https://github.com/user-attachments/assets/3a85f235-a752-48ff-8fe5-92deb471785a" />
 
