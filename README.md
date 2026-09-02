@@ -36,10 +36,11 @@ After installation and booting, you can see the UI and Plasma KDE in Gentoo. Wha
     
   * Note: $LFS variable points to the root directory where you install the LFS system, umask determines the default permissions when creating new files or directories.
 
+
 - Mounting the new partition:
   + Now the file systems is mounted at the directory specified by the LFS enviroment variable.
   + Create the mount point and mount the LFS file system with these command on this picture:
-    <img width="707" height="92" alt="image" src="https://github.com/user-attachments/assets/d959691f-6173-42fc-b5b3-106d25b4668e" />
+  <img width="707" height="92" alt="image" src="https://github.com/user-attachments/assets/d959691f-6173-42fc-b5b3-106d25b4668e" />
 
  
 - Set the owner and permission mode of the $LFS directory:
